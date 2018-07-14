@@ -4,7 +4,7 @@ scala:
   - 2.12.6
 
 jdk:
-  - oraclejdk8
+  - oraclejdk10
 
 cache:
   directories:

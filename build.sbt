@@ -106,7 +106,7 @@ lazy val commonSettings = Seq(
     "-Ywarn-dead-code",
     "-Ywarn-numeric-widen",
     "-Ywarn-value-discard"
-  )) :+ "-opt:l:inline" :+ "-opt-inline-from:<sources>" :+ "-opt-warnings", // activate optimizations
+  )) , // activate optimizations
   resolvers ++= Seq(
     "bintray/denisrosset/maven" at "https://dl.bintray.com/denisrosset/maven",
     Resolver.sonatypeRepo("snapshots"),
